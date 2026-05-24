@@ -81,7 +81,7 @@ const projects: Project[] = [
   longDescription: `Servo Hand is an innovative AI-driven robotic hand that supports multiple control mechanisms including potentiometers, an Android app, and autonomous navigation. Designed for precision and adaptability, the system features 3-axis movement adjustment and global control via IoT. The hand intelligently learns its environment over 20–25 hours using reinforcement learning and Thompson sampling to ensure safe, smooth operation. Built with Java-based Android app communication, embedded C for hardware control, and NodeMCU ESP8266 microcontroller, it represents a fusion of machine learning, embedded systems, and mobile development.`,
   techStack: ['Python', 'CNN'],
   githubUrl: 'https://github.com/Prajwal-Thite/Servohand',
-  imageUrl: 'https://akikorhonen.org/content/projects/pages/builds/robot-hand/.full/servohand_1_23052008_ak.jpg', // You can replace this with a real image if available
+  imageUrl: 'https://github.com/adwaitgondhalekar/Artistic-Image-Generation-using-NST-with-UI/raw/master/Screenshot%20(159).png', // You can replace this with a real image if available
   demoVideoUrl: '', // Optional: Add if you have one
   category: 'AI',
   featured: false
@@ -112,7 +112,7 @@ Architected the Android application using MVVM architecture with ViewModel, Live
   techStack: ['Flutter', 'Dart', 'Firebase', 'Google Cloud Platform', 'Python', 'ML'],
   githubUrl: 'https://github.com/Prajwal-Thite/Chantix',
   liveUrl: 'https://play.google.com/store/apps/details?id=com.dotdevelopingteam.chantix&hl=en', // Use actual URL if available
-  imageUrl: 'https://play-lh.googleusercontent.com/OzxkC-rcqtbEfsWWfjZJt98GCClUYjdtYnLw5TOclbJj9FMl3h6O_1wsXTx0aaIGqg=w240-h480-rw', // Placeholder image
+  imageUrl: 'https://github.com/KulkarniAtharva/Atharva-Portfolio/blob/main/images/messenger.jpg?raw=true', // Placeholder image
   demoVideoUrl: '', // Add if you have one
   category: 'Mobile',
   featured: true
