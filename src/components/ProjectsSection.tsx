@@ -177,7 +177,7 @@ Architected the Android application using MVVM architecture with ViewModel, Live
   techStack: ['Flutter', 'Dart', 'Firebase', 'Google Cloud Platform', 'Python', 'ML'],
   githubUrl: 'https://github.com/Prajwal-Thite/Chantix',
   liveUrl: 'https://play.google.com/store/apps/details?id=com.dotdevelopingteam.chantix&hl=en', // Use actual URL if available
-  imageUrl: 'https://play-lh.googleusercontent.com/OzxkC-rcqtbEfsWWfjZJt98GCClUYjdtYnLw5TOclbJj9FMl3h6O_1wsXTx0aaIGqg=w240-h480-rw', // Placeholder image
+  imageUrl: 'https://github.com/KulkarniAtharva/Atharva-Portfolio/blob/main/images/pokedex.jpg?raw=true', // Placeholder image
   demoVideoUrl: '', // Add if you have one
   category: 'Mobile',
   featured: true
@@ -292,7 +292,7 @@ const ProjectsSection = () => {
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            onClick={() => window.open('https://github.com/Prajwal-Thite?tab=repositories', '_blank')}
+            onClick={() => window.open('https://github.com/KulkarniAtharva?tab=repositories', '_blank')}
             className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-3 rounded-full font-semibold shadow-lg hover:shadow-xl transition-shadow duration-300">
             View All Projects on GitHub
           </motion.button>
