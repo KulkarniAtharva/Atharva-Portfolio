@@ -67,7 +67,7 @@ const EducationSection = () => {
     issueDate: "May 2022",
     credentialId: "5961451",
     verified: true,
-    link: "https://www.salesforce.com/trailblazer/xmczz5a47sxgtxcci0"
+    link: "https://github.com/KulkarniAtharva/Atharva-Portfolio/blob/main/certifications/final_year.jpeg?raw=true"
   },
   {
     id: "2",
@@ -78,7 +78,7 @@ const EducationSection = () => {
     issueDate: "Oct 2019",
     credentialId: "6122252",
     verified: true,
-    link: "https://www.salesforce.com/trailblazer/xmczz5a47sxgtxcci0"
+    link: "https://github.com/KulkarniAtharva/Atharva-Portfolio/blob/main/certifications/dsa_oop.jpeg?raw=true"
   },
   {
     id: "3",
@@ -89,7 +89,7 @@ const EducationSection = () => {
     issueDate: "Sept 2019",
     credentialId: "9L5MFP4MK2NS",
     verified: true,
-    link: "https://www.coursera.org/account/accomplishments/verify/9L5MFP4MK2NS?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"
+    link: "https://github.com/KulkarniAtharva/Atharva-Portfolio/blob/main/certifications/contest1.jpeg?raw=true"
   },
   {
     id: "4",
@@ -100,7 +100,7 @@ const EducationSection = () => {
     issueDate: "March 2019",
     credentialId: "",
     verified: true,
-    link: "https://drive.google.com/file/d/1e0RuMoySCu78Ps3hnLxagI_yKqbpV_k-/view"
+    link: "https://github.com/KulkarniAtharva/Atharva-Portfolio/blob/main/certifications/contest2.jpeg?raw=true"
   },
   {
     id: "5",
@@ -111,7 +111,7 @@ const EducationSection = () => {
     issueDate: "2019",
     credentialId: "DBD3JABMJ69K",
     verified: true,
-    link: "https://www.coursera.org/account/accomplishments/verify/DBD3JABMJ69K?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"
+    link: "https://github.com/KulkarniAtharva/Atharva-Portfolio/blob/main/certifications/nptel_c.jpeg?raw=true"
   },
   {
     id: "6",
@@ -122,7 +122,7 @@ const EducationSection = () => {
     issueDate: "2019",
     credentialId: "ARFR9NVA6ERI",
     verified: true,
-    link: "https://www.coursera.org/account/accomplishments/verify/ARFR9NVA6ERJ?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"
+    link: ""
   },
     {
     id: "7",
