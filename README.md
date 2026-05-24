@@ -84,5 +84,5 @@ src/
 ## Contact
 
 - **Email:** atharvakulkarni2204@gmail.com
-- **LinkedIn:** [linkedin.com/in/atharvaiitian]([https://www.linkedin.com/in/prajwal-thite/](https://www.linkedin.com/in/atharvaiitian))
+- **LinkedIn:** [linkedin.com/in/atharvaiitian](https://www.linkedin.com/in/atharvaiitian)
 - **GitHub:** [github.com/KulkarniAtharva](https://github.com/KulkarniAtharva)
