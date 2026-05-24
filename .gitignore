@@ -1,0 +1,6 @@
+node_modules
+.vercel
+.env
+dist
+docs
+Prajwal_Thite_Resume.pdf
