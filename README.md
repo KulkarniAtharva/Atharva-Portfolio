@@ -2,7 +2,7 @@
 
 A modern, animated personal portfolio website built with React and TypeScript, featuring an AI-powered chatbot, interactive skill filters, project showcases, and a full professional timeline.
 
-**Live site:** [atharvakulkarniiitindore.vercel.app](https://atharvakulkarniiitindore.vercel.app/)
+**Live site:** [atharvakulkarni-iitindore.vercel.app](https://atharvakulkarni-iitindore.vercel.app/)
 
 ---
 
