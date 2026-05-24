@@ -138,7 +138,7 @@ Architected the Android application using MVVM architecture with ViewModel, Live
   techStack: ['Flutter', 'Dart', 'Firebase', 'Google Cloud Platform', 'Python', 'ML'],
   githubUrl: 'https://github.com/Prajwal-Thite/Chantix',
   liveUrl: 'https://play.google.com/store/apps/details?id=com.dotdevelopingteam.chantix&hl=en', // Use actual URL if available
-  imageUrl: 'https://play-lh.googleusercontent.com/OzxkC-rcqtbEfsWWfjZJt98GCClUYjdtYnLw5TOclbJj9FMl3h6O_1wsXTx0aaIGqg=w240-h480-rw', // Placeholder image
+  imageUrl: 'https://github.com/KulkarniAtharva/Atharva-Portfolio/blob/main/images/weather.png?raw=true', // Placeholder image
   demoVideoUrl: '', // Add if you have one
   category: 'Mobile',
   featured: true
