@@ -90,7 +90,7 @@ const AboutMe = () => {
                 <div className="w-64 h-64 rounded-full bg-gradient-to-br from-blue-400 to-purple-600 p-1">
                   <div className="w-full h-full rounded-full bg-white flex items-center justify-center">
                     <img
-                      src="atharva.jpg"
+                      src="https://github.com/KulkarniAtharva/Atharva-Portfolio/blob/main/atharva.jpg?raw=true"
                       alt="Professional Avatar"
                       className="w-56 h-56 rounded-full object-cover"/>
 
