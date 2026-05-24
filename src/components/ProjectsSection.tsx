@@ -292,9 +292,9 @@ const ProjectsSection = () => {
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            onClick={() => window.open('https://github.com/KulkarniAtharva?tab=repositories', '_blank')}
+            onClick={() => window.open('https://kulkarniatharva.github.io/projects.html', '_blank')}
             className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-3 rounded-full font-semibold shadow-lg hover:shadow-xl transition-shadow duration-300">
-            View All Projects on GitHub
+            View All My Projects
           </motion.button>
         </div>
       </div>
