@@ -95,7 +95,7 @@ const projects: Project[] = [
   techStack: ['Flutter', 'Dart', 'Android', 'JAVA', 'Firebase'],
   githubUrl: 'https://github.com/Prajwal-Thite/Planet',
   liveUrl: 'https://play.google.com/store/apps/details?id=com.dotdevelopingteam.planet&hl=en', // Replace with actual Play Store link if available
-  imageUrl: 'https://drive.google.com/uc?export=view&id=1-f_vC7iEt0Ebw7BXbUhVXMv9ovJYwx7l',
+  imageUrl: 'https://github.com/KulkarniAtharva/Atharva-Portfolio/blob/main/images/ecommerce.jpg?raw=true',
   demoVideoUrl: '', // Add a link if you have a video demo
   category: 'Mobile',
   featured: false
@@ -125,7 +125,7 @@ Architected the Android application using MVVM architecture with ViewModel, Live
   techStack: ['Flutter', 'Dart', 'Firebase', 'Google Cloud Platform', 'Python', 'ML'],
   githubUrl: 'https://github.com/Prajwal-Thite/Chantix',
   liveUrl: 'https://play.google.com/store/apps/details?id=com.dotdevelopingteam.chantix&hl=en', // Use actual URL if available
-  imageUrl: 'https://play-lh.googleusercontent.com/OzxkC-rcqtbEfsWWfjZJt98GCClUYjdtYnLw5TOclbJj9FMl3h6O_1wsXTx0aaIGqg=w240-h480-rw', // Placeholder image
+  imageUrl: 'https://github.com/KulkarniAtharva/Atharva-Portfolio/blob/main/images/moviefinder.jpg?raw=true', // Placeholder image
   demoVideoUrl: '', // Add if you have one
   category: 'Mobile',
   featured: true
@@ -191,7 +191,7 @@ Architected the Android application using MVVM architecture with ViewModel, Live
   techStack: ['React', 'JavaScript', 'D3', 'JSON', 'HTML', 'CSS'],
   githubUrl: 'https://github.com/Prajwal-Thite/Conflict_Analysis_Toolkit',
   liveUrl: 'https://prajwal-thite.github.io/Conflict_Analysis_Toolkit/', // Add if a live demo is available
-  imageUrl: 'https://github.com/Prajwal-Thite/Conflict_Analysis_Toolkit/blob/master/Conflict%20analysis%20toolkit.png?raw=true', // Add if an image or screenshot is available
+  imageUrl: 'https://github.com/KulkarniAtharva/Atharva-Portfolio/blob/main/images/tictactoe.png?raw=true', // Add if an image or screenshot is available
   demoVideoUrl: '', // Add if a demo video is available
   category: 'Web',
   featured: true
