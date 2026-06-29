@@ -23,13 +23,18 @@ const App = () =>   //  Creates the root React component. Everything inside this
     <TooltipProvider>
       <Toaster />
       <BrowserRouter>
-        <Routes>  // This handles navigation. It tells React which page to show based on the URL. Container holding all routes
-          <Route path="/" element={<HomePage/>}/>   // Means if user visits: yourwebsite.com/  they see the HomePage component      
-          <Route path="*" element={<NotFound/>}/>   // Means if user visits: yourwebsite.com/abcd  they see the NotFound component
+        <Routes>
+          <Route path="/" element={<HomePage/>}/>    
+          <Route path="*" element={<NotFound/>}/>   
         </Routes>
       </BrowserRouter>
-      <Analytics />  // Starts Vercel Analytics. Whenever someone visits, data is collected automatically
+      <Analytics />   
     </TooltipProvider>
-  </QueryClientProvider>;
+  </QueryClientProvider>
+
+  // Routes handles navigation. It tells React which page to show based on the URL. Container holding all routes
+  // Route Homepage Means if user visits: yourwebsite.com/  they see the HomePage component    
+  // Route NotFoundMeans if user visits: yourwebsite.com/abcd  they see the NotFound component
+  // Analytics Starts Vercel Analytics. Whenever someone visits, data is collected automatically
 
 export default App;
