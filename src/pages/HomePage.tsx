@@ -11,16 +11,17 @@ import Skills from "@/components/Skills";
 const HomePage = () => {
   return (
     <div className="min-h-screen bg-white">
-            <header className="py-6 px-8 border-b bg-white/30 backdrop-blur-md shadow-sm text-gray-800 hover:text-indigo-600 sticky top-0 z-50">
+            <header className="fixed top-0 left-0 w-full z-50 py-6 px-8 bg-black/20 backdrop-blur-md border-b border-white/10 text-white">
+                    
                 <div className="container mx-auto flex flex-col md:flex-row justify-center items-center gap-4 md:gap-6 px-4 text-center">                    
                     <nav className="flex flex-wrap justify-center gap-2 md:gap-4">
-                        <Button variant="link" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Home</Button>
-                        <Button variant="link" onClick={() => document.getElementById('aboutme')?.scrollIntoView({ behavior: 'smooth' })}>About Me</Button>
-                        <Button variant="link" onClick={() => document.getElementById('education')?.scrollIntoView({ behavior: 'smooth' })}>Education</Button>
-                        <Button variant="link" onClick={() => document.getElementById('experience')?.scrollIntoView({ behavior: 'smooth' })}>Experience</Button>
-                        <Button variant="link" onClick={() => document.getElementById('skills')?.scrollIntoView({ behavior: 'smooth' })}>Skills</Button>
-                        <Button variant="link" onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}>Projects</Button>
-                        <Button variant="link" onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}>Contact</Button>
+                        <Button variant="link" className="text-white hover:text-cyan-300 transition-all duration-300" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>Home</Button>
+                        <Button variant="link" className="text-white hover:text-cyan-300 transition-all duration-300" onClick={() => document.getElementById('aboutme')?.scrollIntoView({ behavior: 'smooth' })}>About Me</Button>
+                        <Button variant="link" className="text-white hover:text-cyan-300 transition-all duration-300" onClick={() => document.getElementById('education')?.scrollIntoView({ behavior: 'smooth' })}>Education</Button>
+                        <Button variant="link" className="text-white hover:text-cyan-300 transition-all duration-300" onClick={() => document.getElementById('experience')?.scrollIntoView({ behavior: 'smooth' })}>Experience</Button>
+                        <Button variant="link" className="text-white hover:text-cyan-300 transition-all duration-300" onClick={() => document.getElementById('skills')?.scrollIntoView({ behavior: 'smooth' })}>Skills</Button>
+                        <Button variant="link" className="text-white hover:text-cyan-300 transition-all duration-300" onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}>Projects</Button>
+                        <Button variant="link" className="text-white hover:text-cyan-300 transition-all duration-300" onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}>Contact</Button>
                     </nav>
                 </div>
             </header>
@@ -36,7 +37,7 @@ const HomePage = () => {
             </main>
 
             <footer className="border-t py-8 mt-auto">
-                <div className="container mx-auto px-4 text-center text-gray-500">
+                <div className="container mx-auto px-4 text-center text-white">
                     <p>© {new Date().getFullYear()} Atharva Kulkarni | IIT Indore. All rights reserved.</p>
                 </div>
             </footer>

@@ -62,8 +62,8 @@ const Skills = () => {
     color: "bg-gradient-to-br from-blue-500 to-blue-600",
     category: "Frontend",
     skills: [
+    { name: "HTML", icon: SiShopify, color: "#96bf48", projects: 2, description: "Shopify theme development and customization using Liquid templating" },    
     { name: "React", icon: SiReact, color: "#61DAFB", projects: 5, description: "Expert in hooks, context, and performance optimization" },
-    { name: "Shopify Liquid", icon: SiShopify, color: "#96bf48", projects: 2, description: "Shopify theme development and customization using Liquid templating" },    
     { name: "Tailwind CSS", icon: SiTailwindcss, color: "#06B6D4", projects: 3, description: "Rapid UI development and custom design systems" },
     { name: "JavaScript", icon: () => <img src="/icons/javascript.svg" alt="javascript" className="w-8 h-8" />, projects: 3, description: "ES6+, async programming, and DOM manipulation" },
     { name: "TypeScript", icon: SiTypescript, color: "#3178C6", projects: 4, description: "Strong typing across React components and full-stack apps" },
@@ -83,10 +83,7 @@ const Skills = () => {
     { name: "Python", icon: () => <img src="/icons/python.svg" alt="python" className="w-7 h-7" />, color: "#3776AB", projects: 2, description: "Data processing, ML pipelines, and backend automation" },
     { name: "Node.js", icon: SiNodedotjs, color: "#83bf26", projects: 1, description: "RESTful APIs, microservices, and backend service architecture" },
     { name: "TypeScript", icon: SiTypescript, color: "#3178C6", projects: 4, description: "Used with Bun for backend services and eligibility-based checkout logic" },
-    { name: "PHP", icon: SiPhp, color: "#7b7fb5", projects: 1, description: "Backend services and middleware for Shopify-based platforms" },
     { name: "Express.js", icon: SiExpress, color: "#002233", projects: 1, description: "Middleware, routing, and API development" },
-    { name: "Symfony", icon: SiSymfony, color: "#000000", projects: 1, description: "PHP framework for building structured backend applications" },
-    { name: "FrankenPHP", icon: SiPhp, color: "#7b7fb5", projects: 1, description: "Modern PHP application server for high-performance backend services" },
   ]
 
   },
@@ -96,13 +93,13 @@ const Skills = () => {
     color: "bg-gradient-to-br from-purple-500 to-purple-600",
     category: "AI",
     skills: [
-    { name: "NLP", icon: FaBrain, projects: 1, description: "Text processing and sentiment analysis" },
-    { name: "n8n", icon: FaCogs, projects: 1, description: "Used for workflow automation, API integrations, and low-code backend logic" },
+    { name: "Computer Vision", icon: FaBrain, projects: 1, description: "Image processing and object detection" },
+    { name: "Transformers", icon: FaCogs, projects: 1, description: "Used for digital image processing" },
     { name: "Kaggle Notebook", icon: () => <img src="/icons/kaggle.svg" alt="kaggle" className="w-7 h-7" />, projects: 2, description: "Utilized to train, test, and validate ML models in real-world datasets" },
     { name: "TensorFlow", icon: SiTensorflow, color: "#fe8724", projects: 1, description: "Deep learning and neural network training" },
     // { name: "PyTorch", level: 75, projects: 2, description: "Research-oriented ML model development" },
-    // { name: "Scikit-learn", level: 40, projects: 0, description: "Classical ML algorithms and data preprocessing" },
-    // { name: "NumPy", level: 83, projects: 5, description: "Numerical computing and array operations" },
+    { name: "Scikit-learn", level: 40, projects: 0, description: "Classical ML algorithms and data preprocessing" },
+    { name: "NumPy", level: 83, projects: 5, description: "Numerical computing and array operations" },
     ]
 
   },
@@ -120,42 +117,14 @@ const Skills = () => {
     ]
   },
   {
-    title: "DevOps & Cloud",
-    icon: Settings,
-    color: "bg-gradient-to-br from-orange-500 to-orange-600",
-    category: ["Backend", "DevOps"],
-    skills: [
-    { name: "Salesforce", icon: () => <img src="/icons/salesforce.svg" alt="Salesforce" className="w-8 h-8" />, projects: 0, description: "Worked with Salesforce CRM platforms; certified as AI Associate and Administrator" },
-    { name: "AWS", icon: () => <img src="/icons/aws.svg" alt="AWS" className="w-8 h-8" />, projects: 1, description: "Production infrastructure with S3, EC2, SQS, and load balancing" },
-    { name: "Jenkins", icon: SiJenkins, color: "#D24939", projects: 1, description: "CI/CD pipelines and automated deployment builds" },    
-    { name: "Docker", icon: SiDocker, color: "#2396ee", projects: 2, description: "Containerization and multi-stage builds" },
-    { name: "Kubernetes", icon: SiKubernetes, color: "#3a71e6", projects: 2, description: "Container orchestration and scaling in production environments" },
-    { name: "AWS SQS", icon: SiAmazonsqs, color: "#FF9900", projects: 1, description: "Built and maintained asynchronous processing workflows in production" },
-    { name: "Cron Jobs", icon: FaCogs, projects: 1, description: "Scheduled recurring background tasks for data sync and processing workflows" },
-    { name: "Supervisor", icon: FaCogs, projects: 1, description: "Managed and monitored background worker processes in production environments" },
-  ]
-  },
-  {
-    title: "Agile & Collaboration",
-    icon: Award,
-    color: "bg-gradient-to-br from-violet-500 to-violet-600",
-    category: ["Frontend", "Agile"],
-    skills: [
-    { name: "Jira", icon: SiJira, color: "#0052CC", projects: 1, description: "Sprint planning, backlog grooming, and issue tracking in Agile teams" },
-    { name: "Confluence", icon: SiConfluence, color: "#0052CC", projects: 1, description: "Team documentation, project specs, and knowledge sharing" },
-    { name: "Scrum", icon: SiScrumalliance, color: "#009FDA", projects: 1, description: "Worked in Scrum-based sprints with daily standups and retrospectives" },
-    { name: "Kanban", icon: FaBook, projects: 1, description: "Task management and workflow visualization using Kanban boards" },
-  ]
-  },
-  {
     title: "Tools",
     icon: Layers,
     color: "bg-gradient-to-br from-red-500 to-red-600",
     category: ["Frontend", "Backend", "Tools"],
     skills: [
     { name: "Git", icon: SiGit, color: "#f32b3b", projects: 10, description: "Version control and collaborative workflows" },
-    { name: "Lens", icon: SiLens, color: "#3D90CE", projects: 1, description: "Kubernetes IDE used for managing and monitoring cluster resources in production" },    
-    { name: "Postman", icon: SiPostman, color: "#ff6c37", projects: 4, description: "Used for testing REST APIs, automating requests, and validating backend responses" },
+    { name: "Github", icon: SiLens, color: "#3D90CE", projects: 1, description: "Kubernetes IDE used for managing and monitoring cluster resources in production" },    
+    { name: "Vercel", icon: SiPostman, color: "#ff6c37", projects: 4, description: "Used for testing REST APIs, automating requests, and validating backend responses" },
     { name: "Grafana", icon: SiGrafana, color: "#F46800", projects: 1, description: "Designed dashboards for middleware and OMS monitoring; recognized for improving system observability" },
     { name: "Bitbucket", icon: SiBitbucket, color: "#0052CC", projects: 1, description: "Git-based source control and code review in production team workflows" },
     { name: "DBeaver", icon: SiDbeaver, color: "#382923", projects: 1, description: "Database management and SQL querying across MySQL, PostgreSQL, and Redis" },
@@ -171,19 +140,16 @@ const Skills = () => {
     skills: [
     // { name: "Supabase", level: 83, projects: 4, description: "Real-time subscriptions and auth" },
     { name: "MySQL", icon: () => <img src="/icons/mysql.svg" alt="mysql" className="w-9 h-9" />, projects: 4, description: "Relational database design and optimization" },
-    { name: "PostgreSQL", icon: () => <img src="/icons/postgresql.svg" alt="postgresql" className="w-7 h-7" />, color:"#3a6c94", projects: 1, description: "Designed and queried relational databases for full-stack applications using SQL" },
-    { name: "Redis", icon: SiRedis, color: "#DC382D", projects: 1, description: "Caching and performance optimization in production environments" },
     { name: "Firebase", icon: () => <img src="/icons/firebase.svg" alt="firebase" className="w-8 h-8" />, projects: 5, description: "Real-time database and cloud functions" },
   ]
   }];
 
 
-  const categories = ['All', 'Frontend', 'Backend', 'APIs', 'AI', 'DevOps', 'Agile', 'Tools'];
+  const categories = ['All', 'Frontend', 'Backend', 'APIs', 'AI/ML', 'Tools'];
 
   const filteredSkills = activeFilter === 'All' ?
   skillsData :
   skillsData.filter((skill) => Array.isArray(skill.category)? skill.category.includes(activeFilter) : skill.category === activeFilter);
-
 
   return (
     <section id="skills" className="py-20 px-4 bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800">

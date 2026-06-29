@@ -79,6 +79,9 @@ const AboutMe = () => {
                 <span className="px-4 py-2 bg-blue-200 text-blue-700 rounded-full text-sm font-medium">
                   JAVA
                 </span>
+                <span className="px-4 py-2 bg-orange-200 text-orange-700 rounded-full text-sm font-medium">
+                  Trasformers
+                </span>
               </div>
             </div>
           </div>
