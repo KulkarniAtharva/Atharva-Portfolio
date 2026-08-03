@@ -1,4 +1,4 @@
-# Atharva Kulkarni — Personal Portfolio
+# Atharva Kulkarni — Personal Portfolio 
 
 A modern, animated personal portfolio website built with React and TypeScript, featuring an AI-powered chatbot, interactive skill filters, project showcases, and a full professional timeline.
 
