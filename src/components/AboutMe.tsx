@@ -21,7 +21,7 @@ const AboutMe = () => {
 
             <div className="space-y-6">
               <p className="text-lg text-gray-600 leading-relaxed">
-                I'm a MS Research scholar at the amazing IIT Indore with a strong interest in 
+                I am a MS Research scholar at the amazing IIT Indore with a strong interest in 
                 Computer Vision & Digital Image Processing, along with hands-on experience 
                 in Full-Stack & Mobile Application Development. I secured an AIR of 1880 out 
                 of 2,07,851 candidates (99.10 %ile) in GATE CS 2025, reflecting my 
